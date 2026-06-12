@@ -12,7 +12,8 @@
 
     <link rel="stylesheet"
     href="style.css">
-
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 
 <body>
@@ -105,7 +106,8 @@
         <label>
             What happened?
         </label>
-
+<body>
+    
         <select>
 
             <option>
@@ -156,3 +158,22 @@
     </form>
 
 </section>
+
+</body>
+<section class="map-section">
+
+    <h2>Community Reports Map</h2>
+
+    <p>
+        This map shows reports submitted by communities in Baringo County.
+    </p>
+
+    <div id="map"></div>
+
+</section>
+
+<script
+src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+
+<script src="script.js"></script>
