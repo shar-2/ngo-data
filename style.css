@@ -63,3 +63,62 @@ header {
 
     margin: 10px 0;
 }
+.report {
+
+    background-color: white;
+
+    margin: 20px;
+
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+label {
+
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border-radius: 5px;
+
+    border: 1px solid #cccccc;
+}
+
+button {
+
+    background-color: #2E7D32;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: #256428;
+}
